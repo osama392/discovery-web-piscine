@@ -1,0 +1,11 @@
+some of git recourde :
+
+git add git_workflow 
+
+git commit git_workflow
+
+git edit git_workflow
+
+git push git_workflow
+
+
