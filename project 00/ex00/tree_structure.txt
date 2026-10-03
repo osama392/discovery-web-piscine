@@ -1,0 +1,59 @@
+.:
+total 4
+drwxr-xr-x  3 oal-sa-o _amman   53 Sep 30 16:08 .
+drwx------ 18 oal-sa-o _amman 4096 Sep 30 16:06 ..
+drwxr-xr-x  4 oal-sa-o _amman   42 Sep 30 13:34 dev_workspace
+-rw-r--r--  1 oal-sa-o _amman    0 Sep 30 16:08 tree_structure.txt
+
+./dev_workspace:
+total 0
+drwxr-xr-x 4 oal-sa-o _amman 42 Sep 30 13:34 .
+drwxr-xr-x 3 oal-sa-o _amman 53 Sep 30 16:08 ..
+drwxr-xr-x 3 oal-sa-o _amman 21 Sep 30 13:34 dev_workspace
+drwxr-xr-x 3 oal-sa-o _amman 22 Sep 30 13:32 project
+
+./dev_workspace/dev_workspace:
+total 0
+drwxr-xr-x 3 oal-sa-o _amman 21 Sep 30 13:34 .
+drwxr-xr-x 4 oal-sa-o _amman 42 Sep 30 13:34 ..
+drwxr-xr-x 3 oal-sa-o _amman 17 Sep 30 13:34 project
+
+./dev_workspace/dev_workspace/project:
+total 0
+drwxr-xr-x 3 oal-sa-o _amman 17 Sep 30 13:34 .
+drwxr-xr-x 3 oal-sa-o _amman 21 Sep 30 13:34 ..
+drwxr-xr-x 4 oal-sa-o _amman 37 Sep 30 13:34 web
+
+./dev_workspace/dev_workspace/project/web:
+total 0
+drwxr-xr-x 4 oal-sa-o _amman 37 Sep 30 13:34 .
+drwxr-xr-x 3 oal-sa-o _amman 17 Sep 30 13:34 ..
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:34 backend
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:34 frontend
+
+./dev_workspace/dev_workspace/project/web/backend:
+total 0
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:34 .
+drwxr-xr-x 4 oal-sa-o _amman 37 Sep 30 13:34 ..
+
+./dev_workspace/dev_workspace/project/web/frontend:
+total 0
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:34 .
+drwxr-xr-x 4 oal-sa-o _amman 37 Sep 30 13:34 ..
+
+./dev_workspace/project:
+total 0
+drwxr-xr-x 3 oal-sa-o _amman 22 Sep 30 13:32 .
+drwxr-xr-x 4 oal-sa-o _amman 42 Sep 30 13:34 ..
+drwxr-xr-x 3 oal-sa-o _amman 18 Sep 30 13:32 archives
+
+./dev_workspace/project/archives:
+total 0
+drwxr-xr-x 3 oal-sa-o _amman 18 Sep 30 13:32 .
+drwxr-xr-x 3 oal-sa-o _amman 22 Sep 30 13:32 ..
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:32 tool
+
+./dev_workspace/project/archives/tool:
+total 0
+drwxr-xr-x 2 oal-sa-o _amman  6 Sep 30 13:32 .
+drwxr-xr-x 3 oal-sa-o _amman 18 Sep 30 13:32 ..
