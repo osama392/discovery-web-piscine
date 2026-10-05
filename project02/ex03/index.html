@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Shapes</title>
+    <title>Colors and Opacity</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h2>Color Swatch Palette</h2>
+    <div class="palette">
+        <div class="swatch named">
+            Named (tomato)
+        </div>
+        <div class="swatch hex">
+            HEX (#3498db)
+        </div>
+        <div class="swatch rgb">
+            RGB (46, 204, 113)
+        </div>
+        <div class="swatch rgba">
+            RGBA (155, 89, 182, 0.5)
+        </div>
+    </div>
 
-    <div class="square"></div>
-    <div class="rectangle"></div>
-    <div class="circle"></div>
-    <div class="pill"></div>
-    <div class="triangle"></div>
-
+    <h2>Opacity vs RGBA Comparison</h2>
+    <div class="comparison">
+        <div class="box opacity-box">
+            <div class="child">
+                I am a child element. Opacity 0.5 on the parent makes me fade too.
+            </div>
+        </div>
+        
+        <div class="box rgba-box">
+            <div class="child">
+                I am a child element. RGBA on the parent isolates transparency, so I stay solid!
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-

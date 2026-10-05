@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.my-box {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 15px solid #333;
+    margin: 20px;
+    background-color: lightgreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
