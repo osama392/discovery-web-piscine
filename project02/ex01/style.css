@@ -1,4 +1,35 @@
-body {
-mirgin : 0;
+body{
+	mirgin: 0;
 
 }
+
+
+
+
+.navbar {
+	position: flxed;
+	top: 0; 
+	
+}
+
+
+.back-to-top{
+	position: fixed;
+	right: 20px;
+	bottom: 20px; 
+
+}
+.badge{
+	position: absolute;
+	top: 10px;
+	right: 10px; 
+
+}
+.card{
+	position: realtive;
+
+
+
+}
+
+
