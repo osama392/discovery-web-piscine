@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#box {
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.active {
+    color: white;
+    background-color: blue;
+}
