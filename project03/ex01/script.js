@@ -1,5 +1,7 @@
-function calculateGrade(score) {
-    if (score < 0 || score > 100)
+function calculateGrade(score) { 
+    if (typeof score !== 'number' && !Number.isFinite(score)) //Numbers in JS are: Infinite, NaN, and finite numbers. This checks if the input is a number and not NaN or Infinite.
+        return "Invalid";
+    if (score < 0 || score > 100) //check input validation.
         return "Invalid";
     else if (score >= 90)
         return "A";
@@ -14,7 +16,11 @@ function calculateGrade(score) {
 }
 
 function checkAccess(age, hasTicket) {
-    if (age >= 18 && hasTicket === true)
+    if (typeof age !== 'number' || !Number.isFinite(age)) //check input validation.
+        return "Invalid";
+    if (typeof hasTicket !== 'boolean') //check input validation.
+        return "Invalid";
+    if (age >= 18 && hasTicket === true) //check input validation. returning a boolean based on multiple logical criteria.
         return true;
     else
         return false;
