@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Al-Sa'odi | Profile Photo Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="../ex00/index.html" class="back-link">&larr; Back to Portfolio</a>
+            <span class="badge">Bounce 01 &bull; Profile Switcher</span>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="card">
+            <h1 class="title">Profile Photo Switcher</h1>
+            <p class="subtitle">Switch between different profile photos with smooth CSS transitions and dynamic DOM manipulation.</p>
+
+            <div class="avatar-frame">
+                <img id="profileImg" src="assets/profile1.jpeg" alt="Casual photo of Osama Al-Sa'odi" class="avatar-img">
+            </div>
+
+            <p id="currentLabel" class="current-label">Active Persona: <strong>Casual Look</strong></p>
+
+            <div class="switcher-buttons">
+                <button class="btn-switch active" data-src="assets/profile1.jpeg" data-alt="Casual photo of Osama Al-Sa'odi" data-label="Casual Look">
+                    &#128522; Casual
+                </button>
+                <button class="btn-switch" data-src="assets/profile2.jpeg" data-alt="Professional photo of Osama Al-Sa'odi" data-label="Professional Look">
+                    &#128188; Professional
+                </button>
+                <button class="btn-switch" data-src="assets/profile3.jpeg" data-alt="Travel and adventure photo of Osama Al-Sa'odi" data-label="Travel &amp; Adventure">
+                    &#9992;&#65039; Travel &amp; Adventure
+                </button>
+            </div>
+
+            <div class="code-note">
+                <p>&#9889; Manipulates <code>element.src</code> &amp; <code>element.alt</code> dynamically without page reload.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Osama Al-Sa'odi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

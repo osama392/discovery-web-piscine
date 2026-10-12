@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Al-Sa'odi | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">&lt;Osama /&gt;</a>
+
+            <button id="menuBtn" class="menu-btn" aria-label="Toggle Menu">&#9776;</button>
+
+            <nav id="navMenu" class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certificates</a>
+                <a href="#volunteering">Volunteering</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Mandatory Theme Switcher Button -->
+            <button id="themeToggle" class="theme-toggle" title="Switch Theme">
+                <span id="themeIcon">&#9728;&#65039;</span>
+                <span id="themeLabel">Light</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION (FULL SCREEN) -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="badge">
+                    <span class="status-dot"></span>
+                    <span>Cybersecurity Graduate &bull; SOC Analyst &bull; Solutions Developer</span>
+                </div>
+                <h1 class="hero-name">Hi, I'm Osama Al-Sa'odi</h1>
+                <p class="hero-intro">
+                    Fresh Cybersecurity graduate from Tafila Technical University with hands-on experience in SOC operations, machine learning anomaly detection, and custom security tooling.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="quick-contact">
+                    <span>&#128205; Amman, Jordan</span>
+                    <span class="dot-sep">&bull;</span>
+                    <a href="mailto:issam.saodi@gmail.com">&#128231; issam.saodi@gmail.com</a>
+                    <span class="dot-sep">&bull;</span>
+                    <a href="tel:+962770441541">&#128222; +962 770 441 541</a>
+                </div>
+            </div>
+
+            <!-- UI/UX Scroll Down Indicator -->
+            <a href="#about" class="scroll-cue" aria-label="Scroll to About Me">
+                <span class="scroll-text">Explore Portfolio</span>
+                <span class="scroll-arrow">&#8595;</span>
+            </a>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-wrapper">
+                    <div class="about-photo-card">
+                        <img src="assets/profile.jpeg" alt="Photo of Osama Al-Sa'odi" class="profile-img">
+                        <div class="photo-caption">
+                            <h3>Osama Al-Sa'odi</h3>
+                            <p>Amman, Jordan</p>
+                        </div>
+                    </div>
+
+                    <div class="about-text-card">
+                        <h3>Summary</h3>
+                        <p>
+                            I am a results-driven Cybersecurity Solutions Developer and Security Operations Center (SOC) Analyst. I enjoy building practical defensive tools, analyzing network logs, and exploring deep learning models to detect modern threats.
+                        </p>
+                        <p>
+                            I am seeking opportunities where I can apply my background in software development and network defense to protect real-world systems and critical infrastructure.
+                        </p>
+
+                        <h3 class="sub-heading">Education &amp; Scholarships</h3>
+                        <div class="edu-item">
+                            <div class="edu-top">
+                                <strong>Tafila Technical University (TTU), Jordan</strong>
+                                <span class="edu-years">2022 &ndash; 2026</span>
+                            </div>
+                            <p class="edu-degree">Bachelor of Science in Cybersecurity &mdash; <strong>GPA: 81.87%</strong></p>
+                            <p class="edu-note">Recipient of the Ministry of Higher Education Full Annual Merit Scholarship for 4 consecutive years.</p>
+                        </div>
+
+                        <div class="edu-item">
+                            <div class="edu-top">
+                                <strong>VSB &ndash; Technical University of Ostrava, Czech Republic</strong>
+                                <span class="edu-years">Feb 2024 &ndash; Jun 2024</span>
+                            </div>
+                            <p class="edu-degree">Exchange Semester (Study Abroad)</p>
+                            <p class="edu-note">Awarded the Erasmus+ International Credit Mobility Scholarship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Experience &amp; Research</h2>
+                <div class="cards-list">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Higher Education Reform Expert (HERE Expert) Student</h3>
+                                <p class="card-subtitle">National Erasmus+ Office &mdash; Jordan (Contract)</p>
+                            </div>
+                            <span class="card-date">Dec 2025 &ndash; Aug 2026</span>
+                        </div>
+                        <p class="card-text">
+                            Appointed by the National Erasmus+ Office in Jordan as a Higher Education Reform Expert (HERE Expert) Student for 2025&ndash;2026. This role involves actively contributing to the reform and development of the Jordanian higher education sector, providing student perspectives, and participating in HERE team activities, in collaboration with the EU Delegation and the Ministry of Higher Education.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Undergraduate Research Assistant (Deep Learning)</h3>
+                                <p class="card-subtitle">Tafila Technical University</p>
+                            </div>
+                            <span class="card-date">Feb 2026 &ndash; Jun 2026</span>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Developed and evaluated autoencoder architectures on large-scale phishing datasets using advanced feature engineering to achieve high detection accuracy.</li>
+                            <li>Benchmarked detection models (Precision, Recall, F1-score) for a Scopus-indexed Springer journal submission (Under Review).</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Undergraduate Research Assistant (Cloud Security)</h3>
+                                <p class="card-subtitle">Tafila Technical University</p>
+                            </div>
+                            <span class="card-date">Oct 2025 &ndash; Jan 2026</span>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Engineered a virtualized cloud security lab using pfSense for enterprise-grade network segmentation and firewall management.</li>
+                            <li>Configured Snort IDS rule sets for real-time traffic inspection and generated performance benchmarks. Research presented at IMLC 2026.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Cybersecurity Intern</h3>
+                                <p class="card-subtitle">Green Circle for Cybersecurity &mdash; Amman, Jordan (On-site)</p>
+                            </div>
+                            <span class="card-date">Jul 2025 &ndash; Sep 2025</span>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Participated in an on-the-job training program gaining hands-on experience in cybersecurity under expert guidance.</li>
+                            <li>Worked on real projects applying practical security measures in environments similar to small and medium-sized businesses.</li>
+                            <li>Enhanced skills in penetration testing, network security, and bridging the gap between theory and practice.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Cybersecurity Intern</h3>
+                                <p class="card-subtitle">National Cyber Security Center (NCSC) &mdash; Jordan (Remote)</p>
+                            </div>
+                            <span class="card-date">Mar 2025 &ndash; Apr 2025</span>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Completed the Masar national cybersecurity internship program (180 hours) organized by the NCSC in Jordan.</li>
+                            <li>Received hands-on training in penetration testing, malware analysis, incident response, and network &amp; infrastructure security.</li>
+                            <li>Bridged the gap between academic knowledge and real-world applications in cybersecurity operations.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS GRID -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-box">
+                        <h3>&#128737; Security Operations &amp; Defense</h3>
+                        <div class="pill-group">
+                            <span class="pill">SIEM (Splunk, ELK)</span>
+                            <span class="pill">Incident Response</span>
+                            <span class="pill">Threat Hunting</span>
+                            <span class="pill">Log Analysis</span>
+                            <span class="pill">EDR</span>
+                            <span class="pill">pfSense</span>
+                            <span class="pill">Snort IDS</span>
+                            <span class="pill">DFIR</span>
+                            <span class="pill">Vulnerability Management</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <h3>&#128187; Security Development &amp; Tools</h3>
+                        <div class="pill-group">
+                            <span class="pill">Secure Code Review</span>
+                            <span class="pill">API Security</span>
+                            <span class="pill">Custom Tooling</span>
+                            <span class="pill">Automated Detection</span>
+                            <span class="pill">Docker</span>
+                            <span class="pill">REST APIs</span>
+                            <span class="pill">Cryptography</span>
+                            <span class="pill">LLM Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <h3>&#9889; Programming &amp; Scripting</h3>
+                        <div class="pill-group">
+                            <span class="pill">Python (Advanced)</span>
+                            <span class="pill">C++ (Advanced)</span>
+                            <span class="pill">C</span>
+                            <span class="pill">Assembly</span>
+                            <span class="pill">Node.js</span>
+                            <span class="pill">JavaScript ES6+</span>
+                            <span class="pill">Bash / Linux</span>
+                            <span class="pill">HTML5 &amp; CSS3</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <h3>&#129302; AI &amp; Machine Learning</h3>
+                        <div class="pill-group">
+                            <span class="pill">PyTorch</span>
+                            <span class="pill">Scikit-learn</span>
+                            <span class="pill">Autoencoders</span>
+                            <span class="pill">Vision AI (OCR)</span>
+                            <span class="pill">Anomaly Detection</span>
+                            <span class="pill">Adversarial ML</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SHOWCASE -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Projects Showcase</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card featured">
+                        <span class="project-tag">Senior Capstone &bull; Lead Architect</span>
+                        <h3 class="project-name">VisionVoice Security &mdash; AI Threat Intelligence</h3>
+                        <p class="project-text">
+                            A complete cybersecurity tool integrating a Chrome Extension, Node.js API Gateway, and an isolated Dockerized Python AI Engine.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>Composite threat scoring using PhishTank, Google Safe Browsing, and URLhaus.</li>
+                            <li>LLM-based page scanning, RDAP verification, and Vision AI OCR to detect credential phishing.</li>
+                            <li>Zero-click email inspection with SPF, DKIM, and DMARC verification.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Chrome Extension</span>
+                            <span>Node.js</span>
+                            <span>Python</span>
+                            <span>Docker</span>
+                            <span>PyTorch</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <span class="project-tag">Research &bull; IMLC 2026</span>
+                        <h3 class="project-name">Cloud Security &amp; Network Defense Lab</h3>
+                        <p class="project-text">
+                            Engineered a virtualized enterprise network segmented with pfSense firewalls. Configured Snort IDS custom rule sets for real-time packet inspection and threat alerts.
+                        </p>
+                        <div class="tech-stack">
+                            <span>pfSense</span>
+                            <span>Snort IDS</span>
+                            <span>Virtualization</span>
+                            <span>Network Security</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <span class="project-tag">Research &bull; Springer (Under Review)</span>
+                        <h3 class="project-name">Autoencoder Anomaly Detection for Phishing</h3>
+                        <p class="project-text">
+                            Developed and evaluated deep learning autoencoders on large-scale phishing datasets, engineering features to achieve high detection accuracy, Precision, and Recall.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Scikit-learn</span>
+                            <span>Autoencoders</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <span class="project-tag">Web Development &bull; Frontend Engineering</span>
+                        <h3 class="project-name">Interactive Web Applications &amp; Interfaces</h3>
+                        <p class="project-text">
+                            Developed responsive web interfaces and dynamic web applications utilizing semantic HTML5, modern CSS3 styling, and JavaScript (ES6+). Focused on clean architecture, interactive DOM manipulation, accessibility, and efficient version control workflows.
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript ES6+</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications &amp; Training</h2>
+                <div class="certs-grid">
+                    <div class="cert-item">
+                        <h4>Youth Grow Activity (YGA)</h4>
+                        <p class="cert-org">U.S. Embassy Amman &amp; Q2 Impact (2025&ndash;2026)</p>
+                        <p class="cert-desc">6-month employability and technical leadership program.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Junior Cybersecurity Analyst</h4>
+                        <p class="cert-org">Cisco Networking Academy</p>
+                        <p class="cert-desc">Endpoint Security, Network Defense, and Threat Management.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>CompTIA Security+ Training</h4>
+                        <p class="cert-org">Pioneers Academy</p>
+                        <p class="cert-desc">Core security fundamentals, cryptography, and defense architecture.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Cyber Associate</h4>
+                        <p class="cert-org">Green Circle for Cybersecurity</p>
+                        <p class="cert-desc">SOC workflows, log inspection, and threat triage.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Python Programming</h4>
+                        <p class="cert-org">Pioneers Academy</p>
+                        <p class="cert-desc">Advanced algorithms, data structures, and automation scripting.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Risk Management Quantification</h4>
+                        <p class="cert-org">Octopian</p>
+                        <p class="cert-desc">Cyber risk evaluation models and impact calculation.</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Artificial Intelligence</h4>
+                        <p class="cert-org">TAG-KS (Talal Abu-Ghazaleh)</p>
+                        <p class="cert-desc">Neural networks, AI models, and real-world implementations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VOLUNTEERING & LEADERSHIP -->
+        <section id="volunteering" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Leadership &amp; Volunteering</h2>
+                <div class="cards-list">
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Founder &amp; Team Leader</h3>
+                                <p class="card-subtitle">IPOS Volunteer Team &mdash; TTU</p>
+                            </div>
+                        </div>
+                        <p class="card-text">Founded and led student volunteers in community service, technical workshops, and social initiatives at university.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">PR Officer &amp; Trigger</h3>
+                                <p class="card-subtitle">IEEE Student Branch</p>
+                            </div>
+                        </div>
+                        <p class="card-text">Organized tech events, managed branch public relations, and coordinated hackathons for engineering students.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Campus Ambassador</h3>
+                                <p class="card-subtitle">IEEEXtreme 18.0 &bull; Pitchinno</p>
+                            </div>
+                        </div>
+                        <p class="card-text">Promoted competitive programming participation and mobilized student teams for international coding competitions and innovation challenges.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Active Volunteer</h3>
+                                <p class="card-subtitle">Nahno &bull; Workplace Platforms</p>
+                            </div>
+                        </div>
+                        <p class="card-text">Engaged in community service, environmental initiatives, and youth development workshops across Jordan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOBBIES -->
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-title">Hobbies &amp; Personal Interests</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <span class="hobby-icon">&#9992;&#65039;</span>
+                        <h4>Traveling</h4>
+                        <p>Explored 17 countries across Europe, the Middle East, and the Caucasus, discovering new cultures and horizons.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="hobby-icon">&#128247;</span>
+                        <h4>Photography</h4>
+                        <p>Capturing outdoor landscapes, architecture, and memorable moments.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="hobby-icon">&#128218;</span>
+                        <h4>Tech Reading</h4>
+                        <p>Reading research papers, vulnerability reports, and cybersecurity news.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="hobby-icon">&#127918;</span>
+                        <h4>Gaming</h4>
+                        <p>Playing strategic and puzzle games to stimulate critical thinking and tactical focus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Feel free to reach out for collaboration, security questions, or opportunities.</p>
+
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h3>Direct Info</h3>
+                        <p><strong>Name:</strong> Osama Al-Sa'odi</p>
+                        <p><strong>Location:</strong> Amman, Jordan</p>
+                        <p><strong>Email:</strong> <a href="mailto:issam.saodi@gmail.com">issam.saodi@gmail.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+962770441541">+962 770 441 541</a></p>
+                        <p><strong>GitHub:</strong> <a href="https://github.com/osama392" target="_blank" rel="noopener noreferrer">github.com/osama392</a></p>
+                        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-al-sa-odi-415a161b0/" target="_blank" rel="noopener noreferrer">linkedin.com/in/osama-al-sa-odi</a></p>
+                    </div>
+
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/mgaozqnz" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project / Inquiry">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Osama Al-Sa'odi</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="https://github.com/osama392" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/osama-al-sa-odi-415a161b0/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
