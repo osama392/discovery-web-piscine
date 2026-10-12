@@ -91,4 +91,4 @@ start index.html
 - **Location:** Amman, Jordan  
 - **GitHub:** [@osama392](https://github.com/osama392)  
 - **LinkedIn:** [osama-al-sa-odi](https://www.linkedin.com/in/osama-al-sa-odi-415a161b0/)
-- **Go live** "**(https://osama392.github.io/discovery-web-piscine/project04/ex00/index.html)
+- **Go live:** (https://osama392.github.io/discovery-web-piscine/project04/ex00/index.html)
